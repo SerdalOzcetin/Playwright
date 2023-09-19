@@ -18,8 +18,8 @@ test('Home Page', async ({page})=>{
 
 });
 
-// npx playwright test -----> to run the all tests
-// npx playwright test MyTest.spec.js -----> to run the specific test file
-// npx playwright test MyTest.spec.js --project=chromium -----> to run on specific browser
-// npx playwright test MyTest.spec.js --project=chromium --headed -----> to run on specific browser and heded mode
-// npx playwright test MyTest.spec.js --project=chromium --headed --debug -----> 
+// npx playwright test -----> to run the all tests.
+// npx playwright test MyTest.spec.js -----> to run the specific test file.
+// npx playwright test MyTest.spec.js --project=chromium -----> to run on specific browser.
+// npx playwright test MyTest.spec.js --project=chromium --headed -----> to run on specific browser and heded mode.
+// npx playwright test MyTest.spec.js --project=chromium --headed --debug -----> to run on specific browser and heded mode with debug console.
