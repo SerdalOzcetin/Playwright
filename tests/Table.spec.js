@@ -62,7 +62,6 @@ test('Table', async ({page})=>{
     
         }
 
-        await page.waitForTimeout(1000);
     }
 
 
