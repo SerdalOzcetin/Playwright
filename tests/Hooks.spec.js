@@ -24,7 +24,7 @@ test("Home Page Test", async ({page})=>{
 
 })
 
-test.only("Add product to cart Test", async ({page})=>{
+test("Add product to cart Test", async ({page})=>{
 
     await page.goto("https://www.demoblaze.com/");
 
