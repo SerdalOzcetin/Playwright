@@ -1,0 +1,216 @@
+{
+  "config": {
+    "configFile": "/home/serdal/Documents/playwirghtAutomation/playwright.config.js",
+    "rootDir": "/home/serdal/Documents/playwirghtAutomation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "/home/serdal/Documents/playwirghtAutomation/node_modules/allure-playwright/dist/index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/serdal/Documents/playwirghtAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/serdal/Documents/playwirghtAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/serdal/Documents/playwirghtAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/serdal/Documents/playwirghtAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/serdal/Documents/playwirghtAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "/home/serdal/Documents/playwirghtAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.38.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Pomtest.spec.js",
+      "file": "Pomtest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 14946,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Nexus 6\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-04T12:32:00.181Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0d912305f3a065a60688-79eab4f3cf84aa80e9f6",
+          "file": "Pomtest.spec.js",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 20189,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Nexus 6\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-04T12:32:17.159Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0d912305f3a065a60688-7cdeab429e6473faa3be",
+          "file": "Pomtest.spec.js",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 16069,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Nexus 6\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-04T12:32:41.327Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0d912305f3a065a60688-e53088d58ea472095d96",
+          "file": "Pomtest.spec.js",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

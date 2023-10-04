@@ -1,0 +1,26 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="59.41760000000001">
+<testsuite name="Pomtest.spec.js" timestamp="2023-10-04T12:31:58.477Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.946" errors="0">
+<testcase name="Test" classname="Pomtest.spec.js" time="14.946">
+<system-out>
+<![CDATA[Nexus 6
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Pomtest.spec.js" timestamp="2023-10-04T12:31:58.477Z" hostname="firefox" tests="1" failures="0" skipped="0" time="20.189" errors="0">
+<testcase name="Test" classname="Pomtest.spec.js" time="20.189">
+<system-out>
+<![CDATA[Nexus 6
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Pomtest.spec.js" timestamp="2023-10-04T12:31:58.477Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="16.069" errors="0">
+<testcase name="Test" classname="Pomtest.spec.js" time="16.069">
+<system-out>
+<![CDATA[Nexus 6
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
