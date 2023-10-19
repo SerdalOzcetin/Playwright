@@ -96,13 +96,85 @@
   },
   "suites": [
     {
-      "title": "Pomtest.spec.js",
-      "file": "Pomtest.spec.js",
+      "title": "Alerts.spec.js",
+      "file": "Alerts.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Test",
+          "title": "Alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-05T09:33:44.887Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-30606dcd2e5ddb6ea064",
+          "file": "Alerts.spec.js",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "Confirmation Dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-05T09:33:44.900Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-023246dfd3f88588a937",
+          "file": "Alerts.spec.js",
+          "line": 28,
+          "column": 6
+        },
+        {
+          "title": "Prompt Dialog",
           "ok": true,
           "tags": [],
           "tests": [
@@ -116,29 +188,97 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 14946,
+                  "duration": 10531,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Nexus 6\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-10-04T12:32:00.181Z",
+                  "startTime": "2023-10-05T09:33:46.513Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "0d912305f3a065a60688-79eab4f3cf84aa80e9f6",
-          "file": "Pomtest.spec.js",
-          "line": 6,
+          "id": "2a47a96fdfc7190b297c-1bc6d76bd8b1259abbe1",
+          "file": "Alerts.spec.js",
+          "line": 55,
           "column": 5
         },
         {
-          "title": "Test",
+          "title": "Alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-05T09:33:57.556Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-3a540c4ffe5c10d2ba3a",
+          "file": "Alerts.spec.js",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "Confirmation Dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-05T09:33:57.559Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-f8763ae2274ee8f1b9e6",
+          "file": "Alerts.spec.js",
+          "line": 28,
+          "column": 6
+        },
+        {
+          "title": "Prompt Dialog",
           "ok": true,
           "tags": [],
           "tests": [
@@ -152,29 +292,97 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 20189,
+                  "duration": 14147,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Nexus 6\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-10-04T12:32:17.159Z",
+                  "startTime": "2023-10-05T09:33:59.323Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "0d912305f3a065a60688-7cdeab429e6473faa3be",
-          "file": "Pomtest.spec.js",
-          "line": 6,
+          "id": "2a47a96fdfc7190b297c-d9efdef71dda016a3490",
+          "file": "Alerts.spec.js",
+          "line": 55,
           "column": 5
         },
         {
-          "title": "Test",
+          "title": "Alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-05T09:34:14.998Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-326318f66e20444420f4",
+          "file": "Alerts.spec.js",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "Confirmation Dialog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-05T09:34:15.001Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-de59e73c9fa63b154a8e",
+          "file": "Alerts.spec.js",
+          "line": 28,
+          "column": 6
+        },
+        {
+          "title": "Prompt Dialog",
           "ok": true,
           "tags": [],
           "tests": [
@@ -188,25 +396,21 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 16069,
+                  "duration": 10355,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Nexus 6\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-10-04T12:32:41.327Z",
+                  "startTime": "2023-10-05T09:34:17.628Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "0d912305f3a065a60688-e53088d58ea472095d96",
-          "file": "Pomtest.spec.js",
-          "line": 6,
+          "id": "2a47a96fdfc7190b297c-92d4b45c7895bbb56074",
+          "file": "Alerts.spec.js",
+          "line": 55,
           "column": 5
         }
       ]

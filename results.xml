@@ -1,26 +1,62 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="59.41760000000001">
-<testsuite name="Pomtest.spec.js" timestamp="2023-10-04T12:31:58.477Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.946" errors="0">
-<testcase name="Test" classname="Pomtest.spec.js" time="14.946">
-<system-out>
-<![CDATA[Nexus 6
-]]>
-</system-out>
+<testsuites id="" name="" tests="9" failures="0" skipped="6" errors="0" time="43.565405">
+<testsuite name="Alerts.spec.js" timestamp="2023-10-05T09:33:44.884Z" hostname="chromium" tests="3" failures="0" skipped="2" time="10.531" errors="0">
+<testcase name="Alerts" classname="Alerts.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Confirmation Dialog" classname="Alerts.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Prompt Dialog" classname="Alerts.spec.js" time="10.531">
 </testcase>
 </testsuite>
-<testsuite name="Pomtest.spec.js" timestamp="2023-10-04T12:31:58.477Z" hostname="firefox" tests="1" failures="0" skipped="0" time="20.189" errors="0">
-<testcase name="Test" classname="Pomtest.spec.js" time="20.189">
-<system-out>
-<![CDATA[Nexus 6
-]]>
-</system-out>
+<testsuite name="Alerts.spec.js" timestamp="2023-10-05T09:33:44.884Z" hostname="firefox" tests="3" failures="0" skipped="2" time="14.147" errors="0">
+<testcase name="Alerts" classname="Alerts.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Confirmation Dialog" classname="Alerts.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Prompt Dialog" classname="Alerts.spec.js" time="14.147">
 </testcase>
 </testsuite>
-<testsuite name="Pomtest.spec.js" timestamp="2023-10-04T12:31:58.477Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="16.069" errors="0">
-<testcase name="Test" classname="Pomtest.spec.js" time="16.069">
-<system-out>
-<![CDATA[Nexus 6
-]]>
-</system-out>
+<testsuite name="Alerts.spec.js" timestamp="2023-10-05T09:33:44.884Z" hostname="Microsoft Edge" tests="3" failures="0" skipped="2" time="10.355" errors="0">
+<testcase name="Alerts" classname="Alerts.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Confirmation Dialog" classname="Alerts.spec.js" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Prompt Dialog" classname="Alerts.spec.js" time="10.355">
 </testcase>
 </testsuite>
 </testsuites>
