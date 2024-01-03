@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "/home/serdal/Documents/playwirghtAutomation/playwright.config.js",
-    "rootDir": "/home/serdal/Documents/playwirghtAutomation/tests",
+    "configFile": "/Users/serdal/Documents/Playwright/playwright.config.js",
+    "rootDir": "/Users/serdal/Documents/Playwright/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -36,7 +36,7 @@
         }
       ],
       [
-        "/home/serdal/Documents/playwirghtAutomation/node_modules/allure-playwright/dist/index.js",
+        "/Users/serdal/Documents/Playwright/node_modules/allure-playwright/dist/index.js",
         {
           "outputFolder": "my-allure-results"
         }
@@ -49,12 +49,12 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "/home/serdal/Documents/playwirghtAutomation/test-results",
+        "outputDir": "/Users/serdal/Documents/Playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "chromium",
         "name": "chromium",
-        "testDir": "/home/serdal/Documents/playwirghtAutomation/tests",
+        "testDir": "/Users/serdal/Documents/Playwright/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -62,12 +62,12 @@
         "timeout": 30000
       },
       {
-        "outputDir": "/home/serdal/Documents/playwirghtAutomation/test-results",
+        "outputDir": "/Users/serdal/Documents/Playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "firefox",
         "name": "firefox",
-        "testDir": "/home/serdal/Documents/playwirghtAutomation/tests",
+        "testDir": "/Users/serdal/Documents/Playwright/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -75,12 +75,12 @@
         "timeout": 30000
       },
       {
-        "outputDir": "/home/serdal/Documents/playwirghtAutomation/test-results",
+        "outputDir": "/Users/serdal/Documents/Playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "Microsoft Edge",
         "name": "Microsoft Edge",
-        "testDir": "/home/serdal/Documents/playwirghtAutomation/tests",
+        "testDir": "/Users/serdal/Documents/Playwright/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -90,92 +90,20 @@
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.38.1",
+    "version": "1.40.1",
     "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "Alerts.spec.js",
-      "file": "Alerts.spec.js",
+      "title": "HandleInnerFrames.spec.ts",
+      "file": "HandleInnerFrames.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Alerts",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": -1,
-                  "status": "skipped",
-                  "duration": 0,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-10-05T09:33:44.887Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "2a47a96fdfc7190b297c-30606dcd2e5ddb6ea064",
-          "file": "Alerts.spec.js",
-          "line": 3,
-          "column": 6
-        },
-        {
-          "title": "Confirmation Dialog",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": -1,
-                  "status": "skipped",
-                  "duration": 0,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-10-05T09:33:44.900Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "2a47a96fdfc7190b297c-023246dfd3f88588a937",
-          "file": "Alerts.spec.js",
-          "line": 28,
-          "column": 6
-        },
-        {
-          "title": "Prompt Dialog",
-          "ok": true,
+          "title": "Frames",
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -187,234 +115,68 @@
               "results": [
                 {
                   "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 10531,
-                  "errors": [],
-                  "stdout": [],
+                  "status": "failed",
+                  "duration": 12544,
+                  "error": {
+                    "message": "Error: locator.check: Clicking the checkbox did not change its state\nCall log:\n  \u001b[2m- waiting for locator('//label[@for=\\'i5\\']//div[@id=\\'i5\\']')\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"i5\" jsshadow=\"\" role=\"radio\" aria-disabled=\"…>…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m  -   waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m  -     element is not enabled - waiting...\u001b[22m\n\u001b[2m  -   element is visible, enabled and stable\u001b[22m\n\u001b[2m  -   scrolling into view if needed\u001b[22m\n\u001b[2m  -   done scrolling\u001b[22m\n\u001b[2m  -   performing click action\u001b[22m\n\u001b[2m  -   click action done\u001b[22m\n\u001b[2m  -   waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m  -   navigations have finished\u001b[22m\n",
+                    "stack": "Error: locator.check: Clicking the checkbox did not change its state\nCall log:\n  \u001b[2m- waiting for locator('//label[@for=\\'i5\\']//div[@id=\\'i5\\']')\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"i5\" jsshadow=\"\" role=\"radio\" aria-disabled=\"…>…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m  -   waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m  -     element is not enabled - waiting...\u001b[22m\n\u001b[2m  -   element is visible, enabled and stable\u001b[22m\n\u001b[2m  -   scrolling into view if needed\u001b[22m\n\u001b[2m  -   done scrolling\u001b[22m\n\u001b[2m  -   performing click action\u001b[22m\n\u001b[2m  -   click action done\u001b[22m\n\u001b[2m  -   waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m  -   navigations have finished\u001b[22m\n\n    at /Users/serdal/Documents/Playwright/tests/HandleInnerFrames.spec.ts:19:71",
+                    "location": {
+                      "file": "/Users/serdal/Documents/Playwright/tests/HandleInnerFrames.spec.ts",
+                      "column": 71,
+                      "line": 19
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m childFrames \u001b[33m=\u001b[39m parentFrame\u001b[33m.\u001b[39mchildFrames()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m childFrames[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mlocator(\u001b[32m\"//label[@for='i5']//div[@id='i5']\"\u001b[39m)\u001b[33m.\u001b[39mcheck()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m2000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/serdal/Documents/Playwright/tests/HandleInnerFrames.spec.ts",
+                        "column": 71,
+                        "line": 19
+                      },
+                      "message": "Error: locator.check: Clicking the checkbox did not change its state\nCall log:\n  \u001b[2m- waiting for locator('//label[@for=\\'i5\\']//div[@id=\\'i5\\']')\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"i5\" jsshadow=\"\" role=\"radio\" aria-disabled=\"…>…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m  -   waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m  -     element is not enabled - waiting...\u001b[22m\n\u001b[2m  -   element is visible, enabled and stable\u001b[22m\n\u001b[2m  -   scrolling into view if needed\u001b[22m\n\u001b[2m  -   done scrolling\u001b[22m\n\u001b[2m  -   performing click action\u001b[22m\n\u001b[2m  -   click action done\u001b[22m\n\u001b[2m  -   waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m  -   navigations have finished\u001b[22m\n\n\n\u001b[0m \u001b[90m 17 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m childFrames \u001b[33m=\u001b[39m parentFrame\u001b[33m.\u001b[39mchildFrames()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m childFrames[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mlocator(\u001b[32m\"//label[@for='i5']//div[@id='i5']\"\u001b[39m)\u001b[33m.\u001b[39mcheck()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m2000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/serdal/Documents/Playwright/tests/HandleInnerFrames.spec.ts:19:71\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Number of frames :  \u001b[33m7\u001b[39m\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-10-05T09:33:46.513Z",
-                  "attachments": []
+                  "startTime": "2024-01-03T18:52:46.452Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/serdal/Documents/Playwright/test-results/HandleInnerFrames-Frames-chromium/test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/serdal/Documents/Playwright/tests/HandleInnerFrames.spec.ts",
+                    "column": 71,
+                    "line": 19
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
-          "id": "2a47a96fdfc7190b297c-1bc6d76bd8b1259abbe1",
-          "file": "Alerts.spec.js",
-          "line": 55,
-          "column": 5
-        },
-        {
-          "title": "Alerts",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": -1,
-                  "status": "skipped",
-                  "duration": 0,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-10-05T09:33:57.556Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "2a47a96fdfc7190b297c-3a540c4ffe5c10d2ba3a",
-          "file": "Alerts.spec.js",
-          "line": 3,
-          "column": 6
-        },
-        {
-          "title": "Confirmation Dialog",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": -1,
-                  "status": "skipped",
-                  "duration": 0,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-10-05T09:33:57.559Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "2a47a96fdfc7190b297c-f8763ae2274ee8f1b9e6",
-          "file": "Alerts.spec.js",
-          "line": 28,
-          "column": 6
-        },
-        {
-          "title": "Prompt Dialog",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 14147,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-10-05T09:33:59.323Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "2a47a96fdfc7190b297c-d9efdef71dda016a3490",
-          "file": "Alerts.spec.js",
-          "line": 55,
-          "column": 5
-        },
-        {
-          "title": "Alerts",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": -1,
-                  "status": "skipped",
-                  "duration": 0,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-10-05T09:34:14.998Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "2a47a96fdfc7190b297c-326318f66e20444420f4",
-          "file": "Alerts.spec.js",
-          "line": 3,
-          "column": 6
-        },
-        {
-          "title": "Confirmation Dialog",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": -1,
-                  "status": "skipped",
-                  "duration": 0,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-10-05T09:34:15.001Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "2a47a96fdfc7190b297c-de59e73c9fa63b154a8e",
-          "file": "Alerts.spec.js",
-          "line": 28,
-          "column": 6
-        },
-        {
-          "title": "Prompt Dialog",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 10355,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-10-05T09:34:17.628Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "2a47a96fdfc7190b297c-92d4b45c7895bbb56074",
-          "file": "Alerts.spec.js",
-          "line": 55,
+          "id": "737beeb225735f30fc93-fb3f66923f111e52f178",
+          "file": "HandleInnerFrames.spec.ts",
+          "line": 4,
           "column": 5
         }
       ]
     }
   ],
-  "errors": []
+  "errors": [],
+  "stats": {
+    "startTime": "2024-01-03T18:52:46.278Z",
+    "duration": 13136.452,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
 }

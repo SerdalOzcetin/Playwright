@@ -1,0 +1,5 @@
+From cities :     İzmir      
+From cities :     İzmir Adnan Menderes Havalimanı         İzmir   
+Destination cities :     Muğla      
+Destination cities :     Yayla         Muğla   
+Destination cities :     Seydikemer         Muğla   
