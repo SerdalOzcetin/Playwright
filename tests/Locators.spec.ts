@@ -25,7 +25,7 @@ test('Locators', async ({page})=>{
     await page.click("//button[normalize-space()='Log in']");
 
     // verify the log out element
-    const logoutButton = await page.locator("//a[@id='logout2']");
+    const logoutButton = page.locator("//a[@id='logout2']");
     await expect(logoutButton).toBeVisible();
 
     await page.close();
